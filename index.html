@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(60, 0, 125);
+      }
+
+      .controls {
+        position: absolute;
+        top: 375px;
+        left: 25px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .legend {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 200px;
+        font-size: 20px;
+        left: 25px;
+        background-color: rgb(60, 0, 125);
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .yello {
+        position: absolute;
+
+        top: 260px;
+        left: 25px;
+        background-color: rgb(255, 220, 155);
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .grey {
+        position: absolute;
+        top: 260px;
+        left: 140px;
+        background-color: rgb(211, 232, 217);
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .photon {
+        position: absolute;
+        top: 260px;
+        left: 258px;
+        background-color: rgb(170, 120, 255);
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .ui {
+        position: absolute;
+        top: 55px;
+        left: 25px;
+        font-size: 20px;
+        color: rgba(243, 240, 240, 0.925);
+        font-family: "Times New Roman", Times, serif;
+        font-weight: normal;
+      }
+      .bold {
+          position: absolute;
+          top: 30px;
+          left: 25px;
+          font-size: 20px;
+          color: rgba(243, 240, 240, 0.925);
+          font-family: "Times New Roman", Times, serif;
+          font-weight: bold;
+      }
+    </style>
+    <title>Black Hole Simulation</title>
+  </head>
+  <body>
+    <div class="bold">
+      <span>Black Hole Simulation</span>
+      <br />
+    </div>
+    <div class="ui">
+      <span>1. Click To Add Photons</span>
+      <br />
+      <span>2. Use Arrow Keys To Control Your Spaceship</span>
+      <br />
+      <span>3. Use The Slider And Buttons Below For Adjustments</span>
+      <br />
+      <br />
+      <span>Authors: Mitișor Ana-Iulia and Tomuș Lidia </span>
+      <br />
+      <span>Technical University of Cluj-Napoca </span>
+      <br />
+    </div>
+    <script src="photon.js"></script>
+    <script src="blackhole.js"></script>
+    <script src="sketch.js"></script>
+    <script src="spaceship.js"></script>
+    <script src="vector.js"></script>
+  </body>
+</html>
